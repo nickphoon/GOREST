@@ -1,0 +1,8 @@
+Steps
+1. go mod init <module-name>
+2. go run . or go run main.go
+
+
+why use gorilla mux over the standard mux?
+1. GorillaMux makes it simpler to specify methods like "GET" or "POST only for a specific route
+myRouter.HandleFunc("/", homePage).Methods("GET")
